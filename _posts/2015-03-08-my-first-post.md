@@ -5,6 +5,7 @@ title: Getting Started With Jekyll
 
 {{ page.title }}
 ================
+<p class="meta">8 March 2015 - Nanjing</p>
 
 This is my first post of this blog.
 
