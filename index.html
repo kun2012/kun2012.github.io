@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kun'blog
+title: Kun's tech blog
 ---
 
 <div id="home">
@@ -14,4 +14,19 @@ title: Kun'blog
 </div>
 <div id="home">
     <h1>Reading Notes</h1>
+    <ul class="posts">
+        {% for post in site.categories.reading_notes %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul></span></li>
+    </ul>
+</div>
+<div id="home">
+    <h1>Master series</h1>
+    <ul class="posts">
+        {% for post in site.categories.master_series %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+        </ul></span></li>
+    </ul>
 </div>
