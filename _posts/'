@@ -1,0 +1,18 @@
+---
+title: CSAPP
+layout: post
+category : reading_notes
+---
+
+Here are some reading notes for the book:
+Computer Systems: A Programmer\'s Perspective
+
+## Chapter 1
+
+Hello world!
+
+## Chapter 2
+
+>When an operation is performed where one operand is signed and the other is unsigned, C implicitly casts the signed argument to unsigned and performs the operations assuming the numbers are nonnegative.
+
+>As we will see, this convention makes little difference for standard arithmetic operations, but it leads to nonintuitive results for relational operators such as < and >.
