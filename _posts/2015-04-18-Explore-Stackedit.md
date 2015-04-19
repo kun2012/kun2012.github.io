@@ -14,8 +14,11 @@ Synchronization
 =============
 
 It seems I can't use the synchronization services.
-Google Drive and Dropbox are blocked by the **GFW**.
+
+Google Drive and Dropbox are blocked by the *GFW*.
+
 I feel really *angry* right now.
+
 
 Quotes and Links
 ==============
@@ -23,6 +26,7 @@ Quotes and Links
 > [Home](http://kun2012.github.io/)
 
 > Quotes not presented well on my website.
+
 
 Lists
 ====
@@ -44,9 +48,9 @@ Seems good!
 	* Two
 	* Three
 
+
 Code block
 =========
-
 
 A simple C program:
 
@@ -58,16 +62,20 @@ A simple C program:
 	
 Also the code block should begin with a blank line.
 
+
 How about an image
 =================
 
 ![The priceless Messi][1]
 
 
+
 Horizon rules
 ===========
 
+
 Checking the _Markdown_ doc for figuring out what horizon rule is...
+
 Oh.
 
 ***
@@ -77,6 +85,7 @@ What happens?
 - - - 
 
 Each line containing more than two "*" or "-" generates an _html_ tag `<hr/>`.
+
 Nice!
 
 Latex support
