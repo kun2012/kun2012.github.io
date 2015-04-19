@@ -69,9 +69,13 @@ Horizon rules
 
 Checking the _Markdown_ doc for figuring out what horizon rule is...
 Oh.
+
 ***
+
 What happens?
+
 - - - 
+
 Each line containing more than two "*" or "-" generates an _html_ tag `<hr/>`.
 Nice!
 
@@ -90,9 +94,9 @@ $$
 c^2=a^2+b^2
 $$
 
-How about an inline formula: $$\frac{a}{b}=a \div b$$.
+How about an inline formula: $$a \div b=\frac{a}{b}$$.
 
-By the way, supporting *Latex * should include *MathJax* in the template:
+By the way, supporting _Latex_ should include *MathJax* in the template:
 
 ```
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
@@ -102,6 +106,7 @@ Conclusion
 =========
 
 I think these features are enough.
+
 Just ***enjoy writing***!
 
 
