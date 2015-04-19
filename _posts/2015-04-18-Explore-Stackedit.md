@@ -6,7 +6,7 @@ layout: post
 Overview
 ========
 
-**Stackedit** is the markdown editor I'm going to use.
+*Stackedit* is the markdown editor I'm going to use.
 
 And I need to try the features Stackedit introduced at first.
 
@@ -21,7 +21,7 @@ Google Drive and Dropbox are blocked by the *GFW*.
 Publish
 ======
 
-Publishing the markdown file to Github is the most fantastic feature Stackedit provide.
+Publishing the markdown files to Github is the most fantastic feature Stackedit provided.
 
 
 Quotes and Links
@@ -29,13 +29,11 @@ Quotes and Links
 
 > [Home](http://kun2012.github.io/)
 
-> Quotes not presented well on my website.
-
 
 Lists
 ====
 
-Ok, this is a list:
+Here is an unordered list:
 
 + List should begin with a blank line
 - There is a space between the list symbol and an item.
@@ -51,6 +49,7 @@ Seems good!
 	* One
 	* Two
 	* Three
+
 
 
 Code block
