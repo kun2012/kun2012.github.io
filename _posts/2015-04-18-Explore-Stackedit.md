@@ -20,6 +20,7 @@ Quotes and Links
 ==============
 
 > [Home](http://kun2012.github.io/)
+
 > Quotes not presented well on my website.
 
 Lists
@@ -50,8 +51,8 @@ A simple C program:
 
 	#include <stdio.h>
 	int main() {
-		printf("Hello world\n");
-		return 0;
+	printf("Hello world\n");
+	return 0;
 	}
 	
 Also the code block should begin with a blank line.
