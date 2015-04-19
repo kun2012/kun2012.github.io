@@ -10,12 +10,18 @@ Overview
 
 And I need to try the features Stackedit introduced at first.
 
-Synchronization
+Synchronize
 =============
 
 It seems that I can't use the synchronization services.
 
 Google Drive and Dropbox are blocked by the *GFW*.
+
+
+Publish
+======
+
+Publishing the markdown file to Github is the most fantastic feature Stackedit provide.
 
 
 Quotes and Links
