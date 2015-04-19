@@ -7,6 +7,7 @@ Overview
 ========
 
 This is the markdown editor I'm going to use.
+
 And I'm going to use the features stackedit introduced.
 
 Synchronization
