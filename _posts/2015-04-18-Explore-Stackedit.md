@@ -6,18 +6,16 @@ layout: post
 Overview
 ========
 
-This is the markdown editor I'm going to use.
+**Stackedit** is the markdown editor I'm going to use.
 
-And I'm going to use the features stackedit introduced.
+And I need to try the features Stackedit introduced at first.
 
 Synchronization
 =============
 
-It seems I can't use the synchronization services.
+It seems that I can't use the synchronization services.
 
 Google Drive and Dropbox are blocked by the *GFW*.
-
-I feel really *angry* right now.
 
 
 Quotes and Links
