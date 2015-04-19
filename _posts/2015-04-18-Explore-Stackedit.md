@@ -84,19 +84,15 @@ It draws me crazy!
 
 Ok, problem **solved**.
 
-Here is the two dollars thing:
+Here is the formula block(two dollars with blank line):
 
 $$
 c^2=a^2+b^2
 $$
 
-How about a single one: 
+How about an inline formula: $$\frac{a}{b}=a \div b$$.
 
-$\frac{a}{b}=a \div b$
-
-The block one seems better.
-
-By the way, supporting ***Latex *** should include **MathJax** in the template:
+By the way, supporting *Latex * should include *MathJax* in the template:
 
 ```
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
