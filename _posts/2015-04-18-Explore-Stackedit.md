@@ -37,7 +37,7 @@ Here is an unordered list:
 
 + List should begin with a blank line
 - There is a space between the list symbol and an item.
-* Unordered list can be construct by "+", "-" and "*".
+* The unordered list can be constructed by "+", "-" and "*".
 
 Ordered list:
 
@@ -63,7 +63,7 @@ A simple C program:
 	    return 0;
 	}
 	
-Also the code block should begin with a blank line.
+Also, the code block should begin with a blank line.
 
 
 How about an image
@@ -87,9 +87,8 @@ What happens?
 
 - - - 
 
-Each line containing more than two "*" or "-" generates an _html_ tag `<hr/>`.
+Each line containing more than two "*" or "-" generates an _HTML_ tag `<hr/>`.
 
-Nice!
 
 Latex support
 ============
