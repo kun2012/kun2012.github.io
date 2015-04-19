@@ -65,6 +65,10 @@ A simple C program:
 	
 Also, the code block should begin with a blank line.
 
+Gist
+===
+
+<script src="https://gist.github.com/kun2012/1c398095248f9a54be1e.js"></script>
 
 How about an image
 =================
