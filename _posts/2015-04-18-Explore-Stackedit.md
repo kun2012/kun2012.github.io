@@ -70,6 +70,10 @@ Gist
 
 <script src="https://gist.github.com/kun2012/1c398095248f9a54be1e.js"></script>
 
+The syntax highlight is amazing.
+
+I should choose Gist instead of code blocks.
+
 How about an image
 =================
 
