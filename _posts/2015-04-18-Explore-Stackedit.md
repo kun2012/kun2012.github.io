@@ -3,19 +3,27 @@ title: Explore Stackedit
 layout: post
 ---
 
-##Overview
+Overview
+========
+
 This is the markdown editor I'm going to use.
 And I'm going to use the features stackedit introduced.
 
-###Synchronize: 
+Synchronization
+=============
+
 It seems I can't use the synchronization services.
 Google Drive and Dropbox are blocked by the **GFW**.
 I feel really *angry* right now.
 
-###Quotes and Links
+Quotes and Links
+==============
+
 > [My Github page](http://kun2012.github.io/)
 
-###Lists
+Lists
+====
+
 Ok, this is a list:
 
 + List should begin with a blank line
@@ -33,7 +41,10 @@ Seems good!
 	* Two
 	* Three
 
-###Code
+Code block
+=========
+
+
 A simple C program:
 
 	#include <stdio.h>
@@ -43,12 +54,15 @@ A simple C program:
 	}
 Also the code block should begin with a blank line.
 
-###How about an image
+How about an image
+=================
 
 ![The priceless Messi][1]
 
 
-###Horizon rules
+Horizon rules
+===========
+
 Checking the _Markdown_ doc for figuring out what horizon rule is...
 Oh.
 ***
@@ -57,7 +71,9 @@ What happens?
 Each line containing more than two "*" or "-" generates an _html_ tag `<hr/>`.
 Nice!
 
-###Latex support
+Latex support
+============
+
 How to open a file...
 It draws me crazy!
 Ok, problem **solved**.
@@ -73,7 +89,9 @@ By the way, supporting ***Latex *** should include **MathJax** in the template:
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 ```
 
-###Conclusion
+Conclusion
+=========
+
 I think these features are enough.
 Just ***enjoy writing***!
 
