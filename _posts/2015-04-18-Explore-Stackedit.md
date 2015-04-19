@@ -49,9 +49,10 @@ A simple C program:
 
 	#include <stdio.h>
 	int main() {
-		printf("Hello world\n");
-		return 0;`
+	printf("Hello world\n");
+	return 0;`
 	}
+	
 Also the code block should begin with a blank line.
 
 How about an image
