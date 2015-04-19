@@ -89,7 +89,10 @@ Here is the two dollars thing:
 $$
 c^2=a^2+b^2
 $$
-How about a single one: $\frac{a}{b}=a \div b$.
+
+How about a single one: 
+
+$\frac{a}{b}=a \div b$
 
 The block one seems better.
 
