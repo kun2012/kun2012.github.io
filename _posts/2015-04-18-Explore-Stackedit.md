@@ -79,14 +79,20 @@ Latex support
 ============
 
 How to open a file...
+
 It draws me crazy!
+
 Ok, problem **solved**.
+
 Here is the two dollars thing:
+
 $$
 c^2=a^2+b^2
 $$
 How about a single one: $\frac{a}{b}=a \div b$.
+
 The block one seems better.
+
 By the way, supporting ***Latex *** should include **MathJax** in the template:
 
 ```
