@@ -6,6 +6,8 @@ layout: post
 Overview
 ========
 
+---
+
 *Stackedit* is the markdown editor I'm going to use.
 
 And I need to try the features Stackedit introduced at first.
@@ -13,13 +15,20 @@ And I need to try the features Stackedit introduced at first.
 Synchronize
 =============
 
+---
+
+
 It seems that I can't use the synchronization services.
 
 Google Drive and Dropbox are blocked by the *GFW*.
 
+Google drive finally works with Goagent.
+
 
 Publish
 ======
+
+---
 
 Publishing the markdown files to Github is the most fantastic feature Stackedit provided.
 
@@ -27,11 +36,15 @@ Publishing the markdown files to Github is the most fantastic feature Stackedit 
 Quotes and Links
 ==============
 
+---
+
 > [Home](http://kun2012.github.io/)
 
 
 Lists
 ====
+
+---
 
 Here is an unordered list:
 
@@ -55,6 +68,8 @@ Seems good!
 Code block
 =========
 
+---
+
 A simple C program:
 
 	#include <stdio.h>
@@ -68,6 +83,8 @@ Also, the code block should begin with a blank line.
 Gist
 ===
 
+---
+
 <script src="https://gist.github.com/kun2012/1c398095248f9a54be1e.js"></script>
 
 The syntax highlight is amazing.
@@ -77,6 +94,8 @@ I should choose Gist instead of code blocks.
 How about an image
 =================
 
+---
+
 ![The priceless Messi][1]
 
 
@@ -84,6 +103,7 @@ How about an image
 Horizon rules
 ===========
 
+---
 
 Checking the _Markdown_ doc for figuring out what horizon rule is...
 
@@ -100,6 +120,8 @@ Each line containing more than two "*" or "-" generates an _HTML_ tag `<hr/>`.
 
 Latex support
 ============
+
+---
 
 How to open a file...
 
@@ -123,6 +145,8 @@ By the way, supporting _Latex_ should include *MathJax* in the template:
 
 Conclusion
 =========
+
+---
 
 I think these features are enough.
 
