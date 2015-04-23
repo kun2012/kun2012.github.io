@@ -119,7 +119,7 @@ How about an inline formula: $$a \div b=\frac{a}{b}$$.
 
 By the way, supporting _Latex_ should include *MathJax* in the template:
 
-```
+```javascript
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 ```
 
