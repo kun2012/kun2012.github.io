@@ -123,6 +123,26 @@ By the way, supporting _Latex_ should include *MathJax* in the template:
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 ```
 
+Table
+=====
+
+Define a table:
+
+ header-one | header-two
+ ----------|------------
+*Italics* | A dashed line is required
+**emphasize** | Bars don't need to be assigned
+
+A table with alignment setting:
+
+| left-aligned | center-aligned | right-aligned |
+|:-------------|:--------------:|--------------:|
+|A				|			B	| C				|
+|E | F | G|
+|H|I|J|
+
+
+
 Conclusion
 =========
 
