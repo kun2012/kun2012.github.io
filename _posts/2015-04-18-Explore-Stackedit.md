@@ -31,6 +31,8 @@ Quotes and Links
 ==============
 
 > [Home](http://kun2012.github.io/)
+> 
+> Never underestimate your power to change yourself. Never overestimate your power to change others
 
 
 Lists
