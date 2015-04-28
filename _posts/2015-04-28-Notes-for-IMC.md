@@ -1,3 +1,8 @@
+---
+title: Notes for introduction to modern cryptography
+layout: post
+---
+
 Chapter 2
 ========
 
