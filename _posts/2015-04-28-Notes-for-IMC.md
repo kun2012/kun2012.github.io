@@ -14,10 +14,10 @@ Perfectly-secret encryption schemes are provably secure even against an adversar
 
 The actual definition:
 
-> An encryption scheme($$Gen$$, $$Enc$$, $$Dec$$) over a message space $$M$$ is perfectly sccret if for every probability distribution over $$M$$, every message $$m \in M$$, and every ciphertext $$c \in C$$ for which $$Pr[C=c]\gt 0$$:
+> An encryption scheme($$Gen$$, $$Enc$$, $$Dec$$) over a message space $$M$$ is perfectly secret if for every probability distribution over $$M$$, every message $$m \in M$$, and every ciphertext $$c \in C$$ for which $$Pr[C=c]\gt 0$$:
 >
->$$Pr[M=m | C=c]=Pr[M=m]$$.
-> 
+>$$Pr[M=m | C=c]=Pr[M=m].$$
+>
 
 This definition means that a scheme if perfectly secret if the distributions over messages and ciphertexts are *independent*. It also implies that distinguishing an encryption of $$m_0$$ from an encryption of $$m_1$$ is impossible. We can, therefore, say that perfectly-secret encryption has *perfect indistinguishability*.
 
@@ -31,9 +31,10 @@ The adversarial indistingushability experiment $$PrivK_{A, \Pi}^{eav}$$:
 > 4. The output of the experiment is defined to be $$1$$ if $$b'=b$$, and $$0$$ otherwise. We write $$PrivK_{A, \Pi}^{eav}=1$$ if the output is $$1$$ and in this case we say $$A$$ *succeeded*.
 
 The alternative definition of perfect secrecy:
- > An encryption scheme $$(Gen, Enc, Dec)$$ over a message space $$M$$ is *perfectly secret* if for every adversary $$A$$ it holds that
- > 
- > $$ Pr[PrivK_{A, \Pi}^{eav}=1]=\frac{1}{2}$$.
+
+> An encryption scheme $$(Gen, Enc, Dec)$$ over a message space $$M$$ is *perfectly secret* if for every adversary $$A$$ it holds that
+>
+>$$ Pr[PrivK_{A, \Pi}^{eav}=1]=\frac{1}{2}.$$
 >
 
 ###The one-time pad
@@ -59,19 +60,19 @@ Limitations of one-time pad:
 
 Theorem:
 
-> Let $$(Gen, Enc, Dec)$$ be a perfectly-secret encryption scheme over a message space $$M$$, and let $$K$$ be the key space as determined by $$Gen$$. Then $$|K| \ge |M|$$.
+> Let $$(Gen, Enc, Dec)$$ be a perfectly-secret encryption scheme over a message space $$M$$, and let $$K$$ be the key space as determined by $$Gen$$. Then $$\lvert K \rvert \ge \lvert M \rvert$$.
 
 ###Shannon's Theorem 
 
-As stated above, for a prefectly-secret encryption scheme, $$|K| \gt |M|$$ is satisfied. It is easy to see that $$|C| \gt |M|$$ as well. Therefore, the case of $$|K| = |C| = |M|$$ is the most efficient.
+As stated above, for a prefectly-secret encryption scheme, $$\lvert K \rvert \gt \lvert M \rvert$$ is satisfied. It is easy to see that $$\lvert C \rvert \ge \lvert M \rvert$$ as well. Therefore, the case of $$\lvert K \rvert = \lvert C \rvert = \lvert M \rvert$$ is the most efficient.
 
-Shannon provided a characterization of perfectly-secret encryption schemes for the case $$|K| = |C| = |M|$$.
+Shannon provided a characterization of perfectly-secret encryption schemes for the case $$\lvert K \rvert = \lvert C \rvert = \lvert M \rvert$$.
 
 Theorem:
 
-> Let $$(Gen, Enc, Dec)$$ be a perfectly-secret encryption scheme over a message space $$M$$ for which $$|K| = |C| = |M|$$. This scheme is *perfectly secret* if and only if:
+> Let $$(Gen, Enc, Dec)$$ be a perfectly-secret encryption scheme over a message space $$M$$ for which $$\lvert K \rvert = \lvert C \rvert = \lvert M \rvert$$. This scheme is *perfectly secret* if and only if:
 > 
-> 1. Every key $$k \in K$$ is chosen with equal probability $$1/|K|$$ by algorithm $$Gen$$.
+> 1. Every key $$k \in K$$ is chosen with equal probability $$1/\lvert K \rvert$$ by algorithm $$Gen$$.
 > 2. For every $$m \in M$$ and every $$c \in C$$, there exists a single key $$k \in K$$ such that $$Enc_k(m)$$ outputs $$c$$.
 
 Shannon's theorem is useful for proving whether a given scheme is or is not perfectly secret since condition 1 is easy to confirm and condition 2 can be demonstrated without analyzing any probabilities.
@@ -89,32 +90,35 @@ Chapter 3
 
 2. Quantifying the security of a cryptographic scheme:
 * The concrete approach
+
 > Let $$t$$, $$\epsilon$$ be positive constants with $$\epsilon \leq 1$$.
 > A scheme is $$(t,\epsilon)-secure$$ if every adversary running for time at most $$t$$ succeeds in breaking the scheme with probability at most $$\epsilon$$.
 
 * **The asymptotic approach**
 Security parameter: a unary $$1^{n}$$
 Efficient algorithm: (probabilistic) algorithms running in time *polynomial* in $$n$$
+
 >A function f is  is **negligible** if for every polynomial $$p(\cdot)$$ there exists an $$N$$ such that for all integers $$n \gt N$$ it holds that $$f(n) \lt \frac{1}{p(n)}$$.
 >
- > A scheme is **secure** if every **PPT**(probabilistic, polynomial-time) adversary succeeds in breaking the scheme with only **negligible** probability.
+>A scheme is **secure** if every **PPT**(probabilistic, polynomial-time) adversary succeeds in breaking the scheme with only **negligible** probability.
 
 **The adversarial indistinguishablility experiment $$PrivK^{eav}_{A, \Pi}(n)$$**:
 
-> 1. The adversary $$A$$ is given input $$1^n$$, and outputs a pair of massages $$m_0$$, $$m_1$$ of the same length.
-2. A random key k is generated by running $$Gen(1^n)$$, and a random bit $$b \leftarrow {0, 1}$$ is chosen. The ciphertext $$c \leftarrow Enc_{k}(m_b)$$ is computed and given to $$A$$.
-3. $$A$$ outputs a bit $$b'$$.
-4. The output of the experiment is defined to be 1 if $$b' = b$$, and 0 otherwise. If $$PrivK^{eav}_{A, \Pi}(n) = 1$$, we say that $$A$$ succeeded.
+>1. The adversary $$A$$ is given input $$1^n$$, and outputs a pair of massages $$m_0$$, $$m_1$$ of the same length.
+>2. A random key k is generated by running $$Gen(1^n)$$, and a random bit $$b \leftarrow {0, 1}$$ is chosen. The ciphertext $$c \leftarrow Enc_{k}(m_b)$$ is computed and given to $$A$$.
+>3. $$A$$ outputs a bit $$b'$$.
+>4. The output of the experiment is defined to be 1 if $$b' = b$$, and 0 otherwise. If $$PrivK^{eav}_{A, \Pi}(n) = 1$$, we say that $$A$$ succeeded.
 
 **The definition of indistinguishablility:**
 
 > A private-key encryption scheme $$\Pi = (Gen, Enc, Dec)$$ has indistinguishable encryptions in the presence of an eavesdropper  if for all probabilistic polynomial-time adversaries $$A$$ there exists a negligible function $$negl$$ such that
 >
-$$Pr[PrivK^{eav}_{A, \Pi}(n) = 1] \leq \frac{1}{2} + negl(n)$$
+$$Pr[PrivK^{eav}_{A, \Pi}(n) = 1] \leq \frac{1}{2} + negl(n).$$
 >
 >where the probability is taken over random coins used by $$A$$, as well as the random coins used in the experiment(for choosing the key, the random bit $$b$$, and any randoms coins used in the encryption process).
 
 **THEOREM**
+
 > A private-key encryption scheme has indistinguishable encryption in the presence of an eavesdropper if and only if it is a semantically secure in the presence of an eavesdropper.
 
 
